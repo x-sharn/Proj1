@@ -1,5 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Hero from "@/components/Hero";
+import profile from "@/data/profile";
+import About from "@/components/About";
 
 export default function Home() {
   return (
@@ -7,13 +9,17 @@ export default function Home() {
       <Navbar
         name="Sharon Xavier"
         role="Future Full Stack Developer"
-        company="India"
+        location="India"
       />
 
       <Hero
-        name="Sharon Xavier"
-        role="Future Full Stack Developer"
-        description="I'm learning Next.js step by step and building projects to become a professional Full Stack Developer."
+        name={profile.name}
+        role={profile.role}
+        description={profile.about}
+      />
+
+      <About
+        about={profile.about}
       />
     </>
   );
