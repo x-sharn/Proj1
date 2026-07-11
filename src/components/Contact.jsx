@@ -5,7 +5,7 @@ export default function Contact({
     resume,
   }) {
     return (
-        <section className="bg-slate-900 text-white py-20 px-6">
+        <section id="contact" className="scroll-mt-20 bg-slate-900 text-white py-20 px-6">
         <div className="max-w-6xl mx-auto">
       
           <h2 className="text-4xl font-bold text-center mb-12">

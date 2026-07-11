@@ -5,10 +5,7 @@ export default function ProjectCard({
   github,
 }) {
   return (
-    <div className="bg-slate-800 shadow-md
-hover:shadow-xl
-transition-all
-duration-300 p-6 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 transition">
+    <div className="bg-slate-800 shadow-lg p-6 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
 
       <h3 className="text-2xl font-bold mb-3">
         {title}
@@ -25,6 +22,7 @@ duration-300 p-6 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all 
       <a
         href={github}
         target="_blank"
+        rel="noopener noreferrer"
         className="bg-blue-600 px-4 py-2 rounded-lg"
       >
         GitHub

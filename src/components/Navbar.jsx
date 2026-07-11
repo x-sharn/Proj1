@@ -18,32 +18,21 @@ export default function Navbar({ name, role, location }) {
                 </div>
 
                 <ul className="flex space-x-4">
-                   
-                    <a href="#home">
-                        <li className="hover:text-blue-400 transition">
-                            Home
-                        </li>
-                    </a>
-                    <a href="#about">
-                        <li className="hover:text-blue-400 transition">
-                            About
-                        </li>
-                    </a>
-                    <a href="#projects">
-                        <li className="hover:text-blue-400 transition">
-                            Projects
-                        </li>
-                    </a>
-                    <a href="#skills">
-                        <li className="hover:text-blue-400 transition">
-                            Skills
-                        </li>
-                    </a>
-                    <a href="#contact">
-                        <li className="hover:text-blue-400 transition">
-                            Contact
-                        </li>
-                    </a>
+                    <li>
+                        <a href="#home" className="hover:text-blue-400 transition">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" className="hover:text-blue-400 transition">About</a>
+                    </li>
+                    <li>
+                        <a href="#skills" className="hover:text-blue-400 transition">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#projects" className="hover:text-blue-400 transition">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact" className="hover:text-blue-400 transition">Contact</a>
+                    </li>
                 </ul>
 
             </div>
