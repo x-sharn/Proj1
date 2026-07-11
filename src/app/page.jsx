@@ -7,7 +7,7 @@ import projects from "@/data/projects";
 import Skills from "@/components/Skills";
 import skills from "@/data/skills";
 import Contact from "@/components/Contact";
-import profile from "@/data/profile";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -27,7 +27,13 @@ export default function Home() {
       <About about={profile.about} />
       <Skills skills={skills} />
       <Projects projects={projects} />
-      <Contact email={profile.email} github={profile.github} linkedin={profile.linkedin} resume={profile.resume} />
+      <Contact
+        email={profile.email}
+        github={profile.github}
+        linkedin={profile.linkedin}
+        resume={profile.resume}
+      />
+      <Footer />
     </>
   );
 }
