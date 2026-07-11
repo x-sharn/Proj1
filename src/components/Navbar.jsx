@@ -19,7 +19,7 @@ export default function Navbar({ name, role, location }) {
 
                 <ul className="flex space-x-4">
                     <li className="cursor-pointer hover:text-blue-400 transition">
-                        Portfolio
+                    Portfolio
                     </li>
                     <li>About</li>
                     <li>Projects</li>

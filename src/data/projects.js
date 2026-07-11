@@ -25,6 +25,14 @@ const projects = [
       technology: "JavaScript",
       github: "https://github.com/yourusername/todo-app",
     },
+
+    {
+      id: 4,
+      title: "Calculator App",
+      description: "A simple calculator built with JavaScript.",
+      technology: "JavaScript",
+      github: "https://github.com/yourusername/calculator"
+    }
   ];
   
   export default projects;
