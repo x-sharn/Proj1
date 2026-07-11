@@ -4,6 +4,8 @@ import profile from "@/data/profile";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
 import projects from "@/data/projects";
+import Skills from "@/components/Skills";
+import skills from "@/data/skills";
 
 export default function Home() {
   return (
@@ -20,11 +22,10 @@ export default function Home() {
         description={profile.about}
       />
 
-      <About
-        about={profile.about}
-      />
-
+      <About about={profile.about} />
+      <Skills skills={skills} />
       <Projects projects={projects} />
+
     </>
   );
 }
